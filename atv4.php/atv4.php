@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Média</title>
+    <title>Arrays</title>
 </head>
 <body>
     <h1>Multiplicação de Arrays</h1>
-    <form action="atv3.php" method="POST">
+    <form action="calc.php" method="POST">
         <h2>Array 1</h2>
         <label for="a1_num1">numero 1</label>
         <input type="number" id="a1_num1" name="a1_num1">
@@ -41,11 +41,3 @@
     </form>
 </body>
 </html4
-
-<?php
-    $array1 = 
-
-    for($i = 0; $i < 4; $i++) {
-
-    }
-?>
