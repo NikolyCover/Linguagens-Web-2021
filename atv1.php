@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +7,13 @@
     <title>MMC</title>
 </head>
 <body>
+    <h1>Calculadora de IMC</h1>
     <form action="atv1.php" method="POST">
         <label for="weight">Informe seu peso:</label>
-        <input type="number" id="weight" name="weight">
+        <input type="number" step="0.01" id="weight" name="weight">
 
         <label for="height">Informe sua altura:</label>
-        <input type="text" id="height" name="height">
+        <input type="number" step="0.01" id="height" name="height">
 
         <input type="submit" value="calcular">
     </form>
