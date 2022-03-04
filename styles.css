@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: #404040;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .logo {
+    font-size: 24pt;
+    padding: 10px 0;
+    margin-left: 8vw;
+}
+
+.categories {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 8vw;
+}
+
+.categories li {
+    margin: 0 10px;
+}
+
+main {
+    margin: 8vh 8vw 0 8vw;
+}
+
+.movie {
+    background-color: #404040;
+    color: #FFF;
+    margin-bottom: 4vh;
+    padding: 2vh;
+}
