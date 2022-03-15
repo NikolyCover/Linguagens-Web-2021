@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    color: #262b31;
+}
+
+header {
+    background-color: #456880;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 4vw;
+    color: #FFF;
+}
+
+main {
+    /*min-height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center*/
+}
+
+.add {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFF;
+    color: #456880;
+    font-weight: 600;
+    transition: all .2s;
+}
+
+.add:hover {
+    background-color: rgba(255, 255, 255, 0.87);
+}
