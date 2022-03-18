@@ -30,7 +30,7 @@
 
             <div class="field">
                 <label>Número de celular:</label>
-                <input type="text" name="celphone" required>
+                <input type="text" name="cellphone" required>
             </div>
 
             <div class="field">

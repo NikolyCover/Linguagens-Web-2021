@@ -45,11 +45,16 @@
                    echo '
                         <div class="contact" id="' . $contact['id'] . '">
                             <h1>' . $contact['name'] . '</h1>
-                            <p>' . $contact['cpf'] . '</p>
-                            <p>' . $contact['email'] . '</p>
-                            <p>' . $contact['celphone'] . '</p>
-                            <p>' . $contact['birthday'] . '</p>
-                            <p>' . $contact['age'] . '</p>
+                            <p><strong>CPF:</strong> ' . $contact['cpf'] . '</p>
+                            <p><strong>Email:</strong>' . $contact['email'] . '</p>
+                            <p><strong>Celular:</strong> ' . $contact['cellphone'] . '</p>
+                            <p><strong>Aniversário:</strong> ' . $contact['birthday'] . '</p>
+                            <p><strong>Idade:</strong> ' . $contact['age'] . '</p>
+
+                            <div class="buttons">
+                                <a class="delete" href="delete.php?id=' . $contact['id'] . '">apagar</a>
+                                <a class="edit" href="edit.php?id=' . $contact['id'] . '">editar</a>
+                            </div>
                         </div>
                    ';
                 }

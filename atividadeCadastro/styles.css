@@ -14,19 +14,29 @@ header {
     height: 8vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2vh 4vw;
     color: #FFF;
 }
 
 main {
-    /*min-height: 92vh;
-    display: flex;
-    align-items: center;
-    justify-content: center*/
+    margin: 8vh ;
+    min-height: 92vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24vw, auto));
+    gap: 2vw;
+}
+
+.contact {
+    background-color: #456880;
+    color: #FFF;
+    border-radius: .5rem;
+    padding: 4vh 4vh;
 }
 
 .add {
     padding: 8px;
+    text-decoration: none;
     border: none;
     border-radius: 8px;
     background-color: #FFF;

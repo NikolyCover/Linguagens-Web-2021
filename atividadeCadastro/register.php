@@ -2,7 +2,7 @@
 
 include('connection.php');
 
-if(empty($_POST['name']) || empty($_POST['cpf']) || empty($_POST['email']) || empty($_POST['celphone']) || empty($_POST['birthday'])) {
+if(empty($_POST['name']) || empty($_POST['cpf']) || empty($_POST['email']) || empty($_POST['cellphone']) || empty($_POST['birthday'])) {
     header('Location: index.php');
     exit();
 }
@@ -10,12 +10,12 @@ if(empty($_POST['name']) || empty($_POST['cpf']) || empty($_POST['email']) || em
 $name = $_POST['name'];
 $cpf = $_POST['cpf'];
 $email = $_POST['email'];
-$celphone = $_POST['celphone'];
+$cellphone = $_POST['cellphone'];
 $birthday = $_POST['birthday'];
 
 $age = (int)date('Y') - (int)substr($birthday, 0, 4);
 
-$sqlQuery = "INSERT INTO contact (`name`, `cpf`, `email`, `celphone`, `birthday`, `age`) VALUES ('{$name}', '{$cpf}', '{$email}', '{$celphone}', '{$birthday}', '{$age}')";
+$sqlQuery = "INSERT INTO contact (`name`, `cpf`, `email`, `cellphone`, `birthday`, `age`) VALUES ('{$name}', '{$cpf}', '{$email}', '{$cellphone}', '{$birthday}', '{$age}')";
 
 if(mysqli_query($connection, $sqlQuery)) {
 
